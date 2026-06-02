@@ -4,9 +4,12 @@
 afinn_scorer.py — Puntuación de polaridad AFINN-extendido-con-inventario-emic.
 
 Dos funciones en el TFM:
- 1. LÍNEA BASE (§4.4): primera representación cuantitativa del registro
-    emocional del hilo, y referencia contra la que medir la ganancia de
-    RoBERTuito.
+ 1. LÍNEA BASE (§4.4): puntuación de polaridad léxica por mensaje sobre la
+    totalidad del corpus, que sirve de referencia contra la que medir la
+    ganancia de RoBERTuito en el conjunto de prueba. La agregación temporal
+    de esta puntuación en una curva diacrónica de polaridad no se realiza
+    aquí: queda reservada al plano confirmatorio (§4.8) y a las líneas
+    futuras (§6.3).
  2. INSUMO DEL MUESTREO (§4.3): proporciona la puntuación por mensaje que
     permite sobrerrepresentar los mensajes con valencia próxima a cero
     (los más ambiguos para los métodos léxicos y los más relevantes para
