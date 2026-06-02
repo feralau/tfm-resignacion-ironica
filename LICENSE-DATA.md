@@ -1,3 +1,10 @@
+<!--
+SPDX-License-Identifier: CC-BY-4.0
+Esta licencia (CC BY 4.0) se aplica EXCLUSIVAMENTE a los datos (data/) y al
+modelo (model/best_model/). El código fuente (src/, reproduce.sh) se publica
+por separado bajo licencia MIT; véase el archivo LICENSE.
+-->
+
 # Licencia de los datos y el modelo
 
 Los datos (`data/`) y el modelo (`model/best_model/`) de este repositorio se

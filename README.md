@@ -98,8 +98,14 @@ supervisión humana, vigilancia o perfilado de usuarios, ni generación de texto
 
 ## Licencias
 
-- **Código** (`src/`, `reproduce.sh`): MIT (`LICENSE`).
-- **Datos y modelo** (`data/`, `model/best_model/`): CC BY 4.0 (`LICENSE-DATA.md`).
+Este repositorio usa licenciamiento dual según el tipo de artefacto:
+
+- **Código** (`src/`, `reproduce.sh`): MIT — `SPDX-License-Identifier: MIT` (`LICENSE`).
+- **Datos y modelo** (`data/`, `model/best_model/`): CC BY 4.0 —
+  `SPDX-License-Identifier: CC-BY-4.0` (`LICENSE-DATA.md`).
+
+GitHub detecta automáticamente la licencia MIT del código a partir del archivo
+`LICENSE`; la licencia de datos y modelo se declara en `LICENSE-DATA.md`.
 
 ## Cómo citar
 

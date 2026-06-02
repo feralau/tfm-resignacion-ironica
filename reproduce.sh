@@ -14,22 +14,29 @@ SEED=2024
 # results/grid/grid_summary.json: use_preprocessor = true en todos los runs.
 PREPROCESSOR="--use-preprocessor"
 
-echo "[1/3] Búsqueda en malla de LR + selección del mejor modelo (5e-5)"
+echo "[1/4] Búsqueda en malla de LR + selección del mejor modelo (5e-5)"
 # --grid-search entrena la malla, escribe grid_summary.json y guarda best_model/
 python src/train_robertuito.py \
     --data-dir data/splits --out-dir results/grid \
     --grid-search --seed "${SEED}" ${PREPROCESSOR}
 
-echo "[2/3] Validación cruzada de 5 pliegues (3e-5 y 5e-5)"
+echo "[2/4] Validación cruzada de 5 pliegues (3e-5 y 5e-5)"
 python src/train_robertuito.py --data-dir data/splits \
     --kfold 5 --lr 3e-5 --out-dir results/kfold --seed "${SEED}" ${PREPROCESSOR}
 python src/train_robertuito.py --data-dir data/splits \
     --kfold 5 --lr 5e-5 --out-dir results/kfold --seed "${SEED}" ${PREPROCESSOR}
 
-echo "[3/3] Líneas base (AFINN + pysentimiento) sobre el mismo test"
+echo "[3/4] Líneas base (AFINN + pysentimiento) sobre el mismo test"
 python src/baselines.py --test data/splits/test.csv \
     --inventory data/inventory_emic_destilado.csv \
     --baseline all --out results/baselines
+
+echo "[4/4] Análisis diacrónico exploratorio del subcorpus (proporciones por fase)"
+# Reproduce las proporciones por año y por fase citadas en el TFM, §4.8.
+# Indicios sobre el subcorpus anotado, no estimaciones poblacionales.
+python src/diachronic_exploratory.py \
+    --csv data/subcorpus/subcorpus_anotado_FINAL_anon.csv \
+    --out results/analysis/diachronic_exploratory.json
 
 echo
 echo "Hecho. Métricas en results/. Comparar con model/MODEL_CARD.md §5."

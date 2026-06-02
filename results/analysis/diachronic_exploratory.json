@@ -1,0 +1,324 @@
+{
+  "source": "data/subcorpus/subcorpus_anotado_FINAL_anon.csv",
+  "n_total": 1200,
+  "scope": "subcorpus anotado estratificado; proporciones exploratorias, no poblacionales",
+  "by_phase": {
+    "fundacional_2010_2012": {
+      "n": 388,
+      "counts": {
+        "frustracion_explicita": 82,
+        "resignacion_ironica": 55,
+        "neutral": 193,
+        "otro": 58
+      },
+      "proportions": {
+        "frustracion_explicita": 0.211340206185567,
+        "resignacion_ironica": 0.14175257731958762,
+        "neutral": 0.49742268041237114,
+        "otro": 0.14948453608247422
+      }
+    },
+    "institucionalizacion_2013_2015": {
+      "n": 371,
+      "counts": {
+        "frustracion_explicita": 77,
+        "resignacion_ironica": 111,
+        "neutral": 155,
+        "otro": 28
+      },
+      "proportions": {
+        "frustracion_explicita": 0.20754716981132076,
+        "resignacion_ironica": 0.2991913746630728,
+        "neutral": 0.41778975741239893,
+        "otro": 0.07547169811320754
+      }
+    },
+    "hegemonia_2016_2020": {
+      "n": 260,
+      "counts": {
+        "frustracion_explicita": 44,
+        "resignacion_ironica": 72,
+        "neutral": 126,
+        "otro": 18
+      },
+      "proportions": {
+        "frustracion_explicita": 0.16923076923076924,
+        "resignacion_ironica": 0.27692307692307694,
+        "neutral": 0.4846153846153846,
+        "otro": 0.06923076923076923
+      }
+    },
+    "reciente_2021_2026": {
+      "n": 181,
+      "counts": {
+        "frustracion_explicita": 36,
+        "resignacion_ironica": 33,
+        "neutral": 103,
+        "otro": 9
+      },
+      "proportions": {
+        "frustracion_explicita": 0.19889502762430938,
+        "resignacion_ironica": 0.18232044198895028,
+        "neutral": 0.569060773480663,
+        "otro": 0.049723756906077346
+      }
+    }
+  },
+  "by_year": {
+    "2010": {
+      "n": 161,
+      "counts": {
+        "frustracion_explicita": 40,
+        "resignacion_ironica": 14,
+        "neutral": 85,
+        "otro": 22
+      },
+      "proportions": {
+        "frustracion_explicita": 0.2484472049689441,
+        "resignacion_ironica": 0.08695652173913043,
+        "neutral": 0.5279503105590062,
+        "otro": 0.13664596273291926
+      }
+    },
+    "2011": {
+      "n": 152,
+      "counts": {
+        "frustracion_explicita": 33,
+        "resignacion_ironica": 30,
+        "neutral": 69,
+        "otro": 20
+      },
+      "proportions": {
+        "frustracion_explicita": 0.21710526315789475,
+        "resignacion_ironica": 0.19736842105263158,
+        "neutral": 0.45394736842105265,
+        "otro": 0.13157894736842105
+      }
+    },
+    "2012": {
+      "n": 75,
+      "counts": {
+        "frustracion_explicita": 9,
+        "resignacion_ironica": 11,
+        "neutral": 39,
+        "otro": 16
+      },
+      "proportions": {
+        "frustracion_explicita": 0.12,
+        "resignacion_ironica": 0.14666666666666667,
+        "neutral": 0.52,
+        "otro": 0.21333333333333335
+      }
+    },
+    "2013": {
+      "n": 174,
+      "counts": {
+        "frustracion_explicita": 44,
+        "resignacion_ironica": 52,
+        "neutral": 61,
+        "otro": 17
+      },
+      "proportions": {
+        "frustracion_explicita": 0.25287356321839083,
+        "resignacion_ironica": 0.2988505747126437,
+        "neutral": 0.3505747126436782,
+        "otro": 0.09770114942528736
+      }
+    },
+    "2014": {
+      "n": 95,
+      "counts": {
+        "frustracion_explicita": 13,
+        "resignacion_ironica": 34,
+        "neutral": 39,
+        "otro": 9
+      },
+      "proportions": {
+        "frustracion_explicita": 0.1368421052631579,
+        "resignacion_ironica": 0.35789473684210527,
+        "neutral": 0.4105263157894737,
+        "otro": 0.09473684210526316
+      }
+    },
+    "2015": {
+      "n": 102,
+      "counts": {
+        "frustracion_explicita": 20,
+        "resignacion_ironica": 25,
+        "neutral": 55,
+        "otro": 2
+      },
+      "proportions": {
+        "frustracion_explicita": 0.19607843137254902,
+        "resignacion_ironica": 0.24509803921568626,
+        "neutral": 0.5392156862745098,
+        "otro": 0.0196078431372549
+      }
+    },
+    "2016": {
+      "n": 75,
+      "counts": {
+        "frustracion_explicita": 14,
+        "resignacion_ironica": 26,
+        "neutral": 30,
+        "otro": 5
+      },
+      "proportions": {
+        "frustracion_explicita": 0.18666666666666668,
+        "resignacion_ironica": 0.3466666666666667,
+        "neutral": 0.4,
+        "otro": 0.06666666666666667
+      }
+    },
+    "2017": {
+      "n": 9,
+      "counts": {
+        "frustracion_explicita": 1,
+        "resignacion_ironica": 3,
+        "neutral": 3,
+        "otro": 2
+      },
+      "proportions": {
+        "frustracion_explicita": 0.1111111111111111,
+        "resignacion_ironica": 0.3333333333333333,
+        "neutral": 0.3333333333333333,
+        "otro": 0.2222222222222222
+      }
+    },
+    "2018": {
+      "n": 21,
+      "counts": {
+        "frustracion_explicita": 0,
+        "resignacion_ironica": 7,
+        "neutral": 13,
+        "otro": 1
+      },
+      "proportions": {
+        "frustracion_explicita": 0.0,
+        "resignacion_ironica": 0.3333333333333333,
+        "neutral": 0.6190476190476191,
+        "otro": 0.047619047619047616
+      }
+    },
+    "2019": {
+      "n": 20,
+      "counts": {
+        "frustracion_explicita": 4,
+        "resignacion_ironica": 8,
+        "neutral": 6,
+        "otro": 2
+      },
+      "proportions": {
+        "frustracion_explicita": 0.2,
+        "resignacion_ironica": 0.4,
+        "neutral": 0.3,
+        "otro": 0.1
+      }
+    },
+    "2020": {
+      "n": 135,
+      "counts": {
+        "frustracion_explicita": 25,
+        "resignacion_ironica": 28,
+        "neutral": 74,
+        "otro": 8
+      },
+      "proportions": {
+        "frustracion_explicita": 0.18518518518518517,
+        "resignacion_ironica": 0.2074074074074074,
+        "neutral": 0.5481481481481482,
+        "otro": 0.05925925925925926
+      }
+    },
+    "2021": {
+      "n": 81,
+      "counts": {
+        "frustracion_explicita": 12,
+        "resignacion_ironica": 10,
+        "neutral": 55,
+        "otro": 4
+      },
+      "proportions": {
+        "frustracion_explicita": 0.14814814814814814,
+        "resignacion_ironica": 0.12345679012345678,
+        "neutral": 0.6790123456790124,
+        "otro": 0.04938271604938271
+      }
+    },
+    "2022": {
+      "n": 20,
+      "counts": {
+        "frustracion_explicita": 4,
+        "resignacion_ironica": 5,
+        "neutral": 11,
+        "otro": 0
+      },
+      "proportions": {
+        "frustracion_explicita": 0.2,
+        "resignacion_ironica": 0.25,
+        "neutral": 0.55,
+        "otro": 0.0
+      }
+    },
+    "2023": {
+      "n": 29,
+      "counts": {
+        "frustracion_explicita": 9,
+        "resignacion_ironica": 6,
+        "neutral": 13,
+        "otro": 1
+      },
+      "proportions": {
+        "frustracion_explicita": 0.3103448275862069,
+        "resignacion_ironica": 0.20689655172413793,
+        "neutral": 0.4482758620689655,
+        "otro": 0.034482758620689655
+      }
+    },
+    "2024": {
+      "n": 21,
+      "counts": {
+        "frustracion_explicita": 3,
+        "resignacion_ironica": 7,
+        "neutral": 11,
+        "otro": 0
+      },
+      "proportions": {
+        "frustracion_explicita": 0.14285714285714285,
+        "resignacion_ironica": 0.3333333333333333,
+        "neutral": 0.5238095238095238,
+        "otro": 0.0
+      }
+    },
+    "2025": {
+      "n": 13,
+      "counts": {
+        "frustracion_explicita": 4,
+        "resignacion_ironica": 1,
+        "neutral": 8,
+        "otro": 0
+      },
+      "proportions": {
+        "frustracion_explicita": 0.3076923076923077,
+        "resignacion_ironica": 0.07692307692307693,
+        "neutral": 0.6153846153846154,
+        "otro": 0.0
+      }
+    },
+    "2026": {
+      "n": 17,
+      "counts": {
+        "frustracion_explicita": 4,
+        "resignacion_ironica": 4,
+        "neutral": 5,
+        "otro": 4
+      },
+      "proportions": {
+        "frustracion_explicita": 0.23529411764705882,
+        "resignacion_ironica": 0.23529411764705882,
+        "neutral": 0.29411764705882354,
+        "otro": 0.23529411764705882
+      }
+    }
+  }
+}
