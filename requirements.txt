@@ -1,9 +1,0 @@
-# RoBERTuito fine-tuning — entorno reproducible
-# NOTA: torch NO se fija deliberadamente. Pinearlo rompe torchvision en Colab
-# ("torchvision::nms does not exist"); se usa el torch del entorno.
-transformers>=5.0.0
-datasets
-scikit-learn
-pandas
-numpy
-accelerate
