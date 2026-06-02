@@ -1,0 +1,53 @@
+{
+  "total": 120,
+  "aciertos": 97,
+  "errores": 23,
+  "accuracy": 0.8083333333333333,
+  "top_confusiones": [
+    {
+      "true": "frustracion_explicita",
+      "pred": "neutral",
+      "n": 7
+    },
+    {
+      "true": "resignacion_ironica",
+      "pred": "neutral",
+      "n": 4
+    },
+    {
+      "true": "neutral",
+      "pred": "otro",
+      "n": 3
+    },
+    {
+      "true": "otro",
+      "pred": "resignacion_ironica",
+      "n": 2
+    },
+    {
+      "true": "neutral",
+      "pred": "frustracion_explicita",
+      "n": 2
+    },
+    {
+      "true": "neutral",
+      "pred": "resignacion_ironica",
+      "n": 2
+    },
+    {
+      "true": "frustracion_explicita",
+      "pred": "otro",
+      "n": 1
+    },
+    {
+      "true": "resignacion_ironica",
+      "pred": "frustracion_explicita",
+      "n": 1
+    },
+    {
+      "true": "frustracion_explicita",
+      "pred": "resignacion_ironica",
+      "n": 1
+    }
+  ]
+}
